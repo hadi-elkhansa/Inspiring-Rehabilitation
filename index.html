@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACL Rehabilitation Journey</title>
     <style>
+        /* General Styling */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -21,15 +22,15 @@
         }
         nav {
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
             background: #333;
             padding: 0.5rem;
+            flex-wrap: wrap;
         }
         nav a {
             color: #eaeaea;
             text-decoration: none;
-            margin: 0.5rem;
+            margin: 0 1rem;
             padding: 0.5rem;
             font-weight: bold;
         }
@@ -58,14 +59,6 @@
             margin-bottom: 1rem;
             border-left: 4px solid #ff5733;
         }
-        iframe {
-            display: block;
-            width: 100%;
-            max-width: 560px;
-            height: 315px;
-            margin: 1rem auto;
-            border: none;
-        }
         footer {
             text-align: center;
             padding: 1rem;
@@ -79,6 +72,32 @@
         }
         footer a:hover {
             text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+            .container {
+                padding: 1rem;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+            .goal, .exercise {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                padding: 3rem;
+            }
         }
     </style>
 </head>
@@ -102,7 +121,7 @@
         <!-- Introduction Section -->
         <div class="section" id="introduction">
             <h2>Introduction</h2>
-            <p>The ACL (Anterior Cruciate Ligament) injury is a common sports injury. Recovery requires a structured plan to restore strength, stability, and mobility. This guide breaks down each phase of recovery.</p>
+            <p>The ACL (Anterior Cruciate Ligament) injury is a common sports injury, often resulting from rapid directional changes, sudden stops, or hyperextension of the knee. Recovery after ACL reconstruction surgery requires a structured rehabilitation plan to restore strength, stability, and mobility. This guide breaks down each phase of recovery with detailed exercises, professional tips, and progress milestones.</p>
         </div>
 
         <!-- Early Mobility Section -->
@@ -119,12 +138,9 @@
             <div class="exercise">
                 <h3>Exercises:</h3>
                 <ul>
-                    <li><strong>Straight Leg Raises:</strong> Lie flat, lift your operated leg to 45 degrees, and lower it. Repeat for 3 sets of 10.</li>
-                    <iframe src="https://www.youtube.com/embed/ZiBZsFKDkUo" title="Straight Leg Raises"></iframe>
-                    <li><strong>Quad Sets:</strong> Tighten your quadriceps muscle and hold for 5 seconds. Repeat for 3 sets of 10-15.</li>
-                    <iframe src="https://www.youtube.com/embed/5TUK4uT2nnw" title="Quad Sets"></iframe>
-                    <li><strong>Ankle Pumps:</strong> Flex and point your toes to improve circulation. Perform for 2-3 minutes.</li>
-                    <iframe src="https://www.youtube.com/embed/08-PZOBlC6U" title="Ankle Pumps"></iframe>
+                    <li><strong>Straight Leg Raises:</strong> Lie flat on your back, keep the operated leg straight, and slowly lift it to about 45 degrees. Lower it back down with control. Repeat for 3 sets of 10.</li>
+                    <li><strong>Quad Sets:</strong> Sit with your leg extended, tighten your quadriceps muscle, and hold for 5 seconds while pushing the back of your knee down against the floor. Perform 3 sets of 10-15 repetitions.</li>
+                    <li><strong>Ankle Pumps:</strong> Flex and point your toes repeatedly to improve blood circulation and prevent blood clots. Perform for 2-3 minutes several times daily.</li>
                 </ul>
             </div>
         </div>
@@ -135,19 +151,17 @@
             <div class="goal">
                 <h3>Goals:</h3>
                 <ul>
-                    <li>Strengthen key muscles</li>
+                    <li>Strengthen the quadriceps, glute, and hamstring muscles</li>
                     <li>Enhance knee stability</li>
+                    <li>Begin light functional movements</li>
                 </ul>
             </div>
             <div class="exercise">
                 <h3>Exercises:</h3>
                 <ul>
-                    <li><strong>Mini Squats:</strong> Bend knees to 30-45 degrees and hold for 2 seconds. Repeat for 3 sets of 10-15.</li>
-                    <iframe src="https://www.youtube.com/embed/24vTemdHiqY" title="Mini Squats"></iframe>
-                    <li><strong>Single-Leg Balance:</strong> Stand on the operated leg on an unstable surface for 15-30 seconds. Perform 3 sets.</li>
-                    <iframe src="https://www.youtube.com/embed/2VdGUqrWYMs" title="Single-Leg Balance"></iframe>
-                    <li><strong>Step-Ups:</strong> Step onto a low step with the operated leg and step back down. Repeat for 3 sets of 10.</li>
-                    <iframe src="https://www.youtube.com/embed/2VdGUqrWYMs" title="Step-Ups"></iframe>
+                    <li><strong>Mini Squats:</strong> Stand with feet shoulder-width apart. Lower into a squat, bending your knees to 30-45 degrees, keeping your knees aligned over your feet.</li>
+                    <li><strong>Single-Leg Balance:</strong> Stand on the operated leg on an unstable surface. Attempt to balance for 15-30 seconds.</li>
+                    <li><strong>Step-Ups:</strong> Use a low step (4-6 inches). Step up with the operated leg, then bring the other leg up.</li>
                 </ul>
             </div>
         </div>
@@ -158,6 +172,34 @@
             <div class="goal">
                 <h3>Goals:</h3>
                 <ul>
-                    <li>Introduce controlled dynamic movements</li
-::contentReference[oaicite:0]{index=0}
- 
+                    <li>Reintroduce dynamic, weight-bearing movements</li>
+                    <li>Prepare for sports or high-level activities</li>
+                </ul>
+            </div>
+            <div class="exercise">
+                <h3>Exercises:</h3>
+                <ul>
+                    <li><strong>Box Jumps:</strong> Start with a low box (4-6 inches). Jump onto the box, focusing on a soft landing with both feet.</li>
+                    <li><strong>Lunges:</strong> Perform forward lunges, ensuring your knee stays aligned over your ankle.</li>
+                    <li><strong>Side Steps with Resistance Band:</strong> Place a resistance band around your thighs. Step sideways.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mental Health Section -->
+        <div class="section" id="mental-health">
+            <h2>Mental Health During Recovery</h2>
+            <p>Recovering from an ACL injury can be mentally challenging. Here are tips to maintain a positive mindset:</p>
+            <ul>
+                <li>Stay connected with friends and family.</li>
+                <li>Set small, achievable goals.</li>
+                <li>Practice mindfulness and meditation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ACL Rehab Guide. Empowering your recovery journey.</p>
+    </footer>
+</body>
+</html>
