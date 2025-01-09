@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACL Rehabilitation Journey</title>
     <style>
+        /* General Styling */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -24,6 +25,7 @@
             justify-content: center;
             background: #333;
             padding: 0.5rem;
+            flex-wrap: wrap;
         }
         nav a {
             color: #eaeaea;
@@ -71,6 +73,32 @@
         footer a:hover {
             text-decoration: underline;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+            .container {
+                padding: 1rem;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+            .goal, .exercise {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .container {
+                padding: 3rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -110,9 +138,9 @@
             <div class="exercise">
                 <h3>Exercises:</h3>
                 <ul>
-                    <li><strong>Straight Leg Raises:</strong> Lie flat on your back, keep the operated leg straight, and slowly lift it to about 45 degrees. Lower it back down with control. Repeat for 3 sets of 10. Ensure your pelvis stays level to avoid straining your lower back.</li>
-                    <li><strong>Quad Sets:</strong> Sit with your leg extended, tighten your quadriceps muscle, and hold for 5 seconds while pushing the back of your knee down against the floor or a rolled-up towel. Perform 3 sets of 10-15 repetitions. This helps activate the quad and reduces atrophy.</li>
-                    <li><strong>Ankle Pumps:</strong> While lying down, flex and point your toes repeatedly to improve blood circulation and prevent blood clots. Perform for 2-3 minutes several times daily.</li>
+                    <li><strong>Straight Leg Raises:</strong> Lie flat on your back, keep the operated leg straight, and slowly lift it to about 45 degrees. Lower it back down with control. Repeat for 3 sets of 10.</li>
+                    <li><strong>Quad Sets:</strong> Sit with your leg extended, tighten your quadriceps muscle, and hold for 5 seconds while pushing the back of your knee down against the floor. Perform 3 sets of 10-15 repetitions.</li>
+                    <li><strong>Ankle Pumps:</strong> Flex and point your toes repeatedly to improve blood circulation and prevent blood clots. Perform for 2-3 minutes several times daily.</li>
                 </ul>
             </div>
         </div>
@@ -131,9 +159,9 @@
             <div class="exercise">
                 <h3>Exercises:</h3>
                 <ul>
-                    <li><strong>Mini Squats:</strong> Stand with feet shoulder-width apart. Lower into a squat, bending your knees to 30-45 degrees, keeping your knees aligned over your feet. Hold for 2 seconds and return to standing. Do 3 sets of 10-15.</li>
-                    <li><strong>Single-Leg Balance:</strong> Stand on the operated leg on an unstable surface, such as a pillow or foam pad. Attempt to balance for 15-30 seconds, gradually progressing to closing your eyes for added difficulty. Perform 3 sets.</li>
-                    <li><strong>Step-Ups:</strong> Use a low step (4-6 inches). Step up with the operated leg, then bring the other leg up. Step back down in reverse order. Repeat for 3 sets of 10.</li>
+                    <li><strong>Mini Squats:</strong> Stand with feet shoulder-width apart. Lower into a squat, bending your knees to 30-45 degrees, keeping your knees aligned over your feet.</li>
+                    <li><strong>Single-Leg Balance:</strong> Stand on the operated leg on an unstable surface. Attempt to balance for 15-30 seconds.</li>
+                    <li><strong>Step-Ups:</strong> Use a low step (4-6 inches). Step up with the operated leg, then bring the other leg up.</li>
                 </ul>
             </div>
         </div>
@@ -151,30 +179,9 @@
             <div class="exercise">
                 <h3>Exercises:</h3>
                 <ul>
-                    <li><strong>Box Jumps:</strong> Start with a low box (4-6 inches). Jump onto the box, focusing on a soft landing with both feet. Step down and repeat for 3 sets of 10-15. Gradually increase box height as strength improves.</li>
-                    <li><strong>Lunges:</strong> Perform forward lunges, ensuring your knee stays aligned over your ankle. Begin with shallow lunges and progress to deeper movements. Perform 3 sets of 10 on each leg.</li>
-                    <li><strong>Side Steps with Resistance Band:</strong> Place a resistance band around your thighs. Step sideways, maintaining tension in the band. Perform 3 sets of 20 steps in each direction.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- High-Level Activities Section -->
-        <div class="section" id="high-level-activity">
-            <h2>Month 7-8: Return to High-Level Activities</h2>
-            <div class="goal">
-                <h3>Goals:</h3>
-                <ul>
-                    <li>Enhance agility and coordination</li>
-                    <li>Reintroduce sport-specific drills</li>
-                    <li>Achieve pre-injury performance levels</li>
-                </ul>
-            </div>
-            <div class="exercise">
-                <h3>Exercises:</h3>
-                <ul>
-                    <li><strong>Sports-Specific Drills:</strong> Start with jogging or dribbling for soccer, or defensive slides for basketball. Gradually progress to sprinting and game-like movements. Perform for 30-60 minutes daily.</li>
-                    <li><strong>Agility Ladder Drills:</strong> Perform lateral and diagonal movements with quick steps. Focus on maintaining knee stability. Complete 2-3 sets of each drill for 20-30 seconds.</li>
-                    <li><strong>Jumping and Landing Drills:</strong> Practice controlled jumps and landings, focusing on alignment and soft landings. Perform for 10 minutes.</li>
+                    <li><strong>Box Jumps:</strong> Start with a low box (4-6 inches). Jump onto the box, focusing on a soft landing with both feet.</li>
+                    <li><strong>Lunges:</strong> Perform forward lunges, ensuring your knee stays aligned over your ankle.</li>
+                    <li><strong>Side Steps with Resistance Band:</strong> Place a resistance band around your thighs. Step sideways.</li>
                 </ul>
             </div>
         </div>
@@ -184,34 +191,9 @@
             <h2>Mental Health During Recovery</h2>
             <p>Recovering from an ACL injury can be mentally challenging. Here are tips to maintain a positive mindset:</p>
             <ul>
-                <li><strong>Stay Connected:</strong> Lean on friends, family, and support groups to share your journey and emotions.</li>
-                <li><strong>Set Small Goals:</strong> Celebrate small victories, like regaining motion or completing a new exercise.</li>
-                <li><strong>Practice Mindfulness:</strong> Techniques like meditation and deep breathing can reduce stress and improve focus.</li>
-                <li><strong>Seek Professional Help:</strong> Don’t hesitate to consult a mental health professional if you’re feeling overwhelmed.</li>
-            </ul>
-        </div>
-
-        <!-- Nutrition Section -->
-        <div class="section" id="nutrition">
-            <h2>Nutrition for Recovery</h2>
-            <p>A proper diet can accelerate your ACL recovery. Here are some tips:</p>
-            <ul>
-                <li><strong>Protein-Rich Foods:</strong> Include lean meats, eggs, and legumes to support muscle repair and growth.</li>
-                <li><strong>Anti-Inflammatory Foods:</strong> Eat fruits like berries and vegetables like spinach to reduce inflammation.</li>
-                <li><strong>Calcium and Vitamin D:</strong> Strengthen your bones with dairy products, fish, and fortified foods.</li>
-                <li><strong>Hydration:</strong> Stay hydrated to maintain optimal joint health and overall body function.</li>
-            </ul>
-        </div>
-
-        <!-- Resources Section -->
-        <div class="section" id="resources">
-            <h2>Resources</h2>
-            <p>Explore our recommended articles and tools for ACL recovery:</p>
-            <ul>
-                <li><a href="https://www.aclsurgeryinfo.org" target="_blank">Comprehensive Guide to ACL Surgery</a></li>
-                <li><a href="https://www.physiotherapytools.com" target="_blank">Best Physiotherapy Equipment</a></li>
-                <li><a href="https://www.sportstrainingtechniques.com" target="_blank">Advanced Sports Training Techniques</a></li>
-                <li><a href="https://www.injurypreventioninfo.org" target="_blank">Understanding Injury Prevention</a></li>
+                <li>Stay connected with friends and family.</li>
+                <li>Set small, achievable goals.</li>
+                <li>Practice mindfulness and meditation.</li>
             </ul>
         </div>
     </div>
